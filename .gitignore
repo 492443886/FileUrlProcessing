@@ -1,0 +1,35 @@
+# Node.js
+node_modules/        # Ignore the node_modules directory
+npm-debug.log       # Ignore npm's log file
+yarn-error.log      # Ignore Yarn's log file
+
+# Dependency directories
+/pnpm-debug.log     # Ignore pnpm's log file
+pnpm-lock.yaml       # Ignore pnpm lockfile
+/package-lock.json   # Ignore npm lockfile
+/yarn.lock           # Ignore Yarn lockfile
+
+# Environment variables
+.env                # Ignore .env files containing sensitive data
+
+# OS generated files
+.DS_Store           # Ignore macOS .DS_Store files
+Thumbs.db           # Ignore Windows thumbnail files
+
+# Editor files
+.vscode/            # Ignore VS Code settings
+.idea/              # Ignore IntelliJ IDEA settings
+
+# Logs
+logs/               # Ignore log files
+
+# Output of built code
+/dist/              # Ignore the output directory of a build process
+
+# Miscellaneous
+npm-debug.log.*     # Ignore all npm debug logs
+yarn-debug.log.*    # Ignore all Yarn debug logs
+node_modules.bak/   # Ignore node_modules backup directories
+
+# Ignore your own configuration files
+config.js
